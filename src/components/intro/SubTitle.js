@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import "../../css/common.css";
 
 class SubTitle extends Component{
     render() {
