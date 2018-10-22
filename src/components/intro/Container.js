@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
+import Title from "./Title";
+import SubTitle from "./SubTitle";
+import Email from "./Email";
 
 class Container extends Component{
     render(){
-        const containerStyle = {
-          background : "url(../images/bg_intro.png)",
-          width : "100%",
-          height : "100%"
-        };
         return(
-          <div style={containerStyle}>
-
+          <div className="container">
+              <Title name="박휘겸"/>
+              <SubTitle ename="Park Hwigyeom"/>
+              <Email email="phg5590@gmail.com"/>
           </div>
         );
     }
