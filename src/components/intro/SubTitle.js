@@ -4,7 +4,8 @@ class SubTitle extends Component{
     render() {
         const commonStyle = {
             textAlign:"center",
-            fontWeight:"lighter"
+            fontWeight:"lighter",
+            fontSize:"2rem"
         };
         return (
             <div>

@@ -4,7 +4,8 @@ class Title extends Component{
     render() {
         const commonStyle = {
           textAlign:"center",
-          fontWeight:"lighter"
+          fontWeight:"lighter",
+          fontSize:"2.5rem"
         };
         const emphasizeName = {
             fontSize: "1.2em"
