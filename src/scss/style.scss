@@ -5,12 +5,17 @@
   height: 100%;
   overflow: hidden;
 }
-.container{
+.container {
   @extend #root;
   background: url("../images/bg_intro.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   color: #ffffff;
-  line-height: 20rem;
+
+  & > div {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+  }
 }
