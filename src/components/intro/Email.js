@@ -5,7 +5,7 @@ const Email = ({email}) => {
       width:"30%",
       float:"right",
       marginTop:"5%",
-      fontSize:"1.3rem"
+      fontSize:"1.5rem"
     };
     return(
         <div style={commonStyle}>
