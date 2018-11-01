@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import Container from "./components/intro/Container";
+import Container from "./components/Container";
 import "./css/common.css";
 import "./css/style.css";
 

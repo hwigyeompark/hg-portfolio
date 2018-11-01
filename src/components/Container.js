@@ -16,6 +16,10 @@ class Container extends Component{
                   </div>
                   <ArrowDown/>
               </div>
+
+              <div id="about">
+                  <Title title="About" />
+              </div>
           </div>
         );
     }
