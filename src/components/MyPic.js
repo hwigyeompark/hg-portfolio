@@ -3,13 +3,19 @@ import lifeClock from '../images/img_life_clock.png';
 
 class MyPic extends Component{
     render(){
-        const picContainer = {
-            width:"20%",
-            height:"auto"
+        const picStyle = {
+            div : {
+                width : "40%",
+                height : "auto"
+            },
+            img : {
+                width:"100%",
+                height:"100%"
+            }
         };
         return(
-          <div style={picContainer}>
-              <img src={lifeClock}/>
+          <div style={picStyle.div}>
+              <img style={picStyle.img} src={lifeClock}/>
           </div>
         );
     }
