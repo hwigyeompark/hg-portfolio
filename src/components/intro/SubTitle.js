@@ -9,7 +9,7 @@ class SubTitle extends Component{
         };
         return (
             <div>
-                <h2 style={commonStyle}>{this.props.ename}'s Portfolio</h2>
+                <h2 style={commonStyle}>{this.props.subtitle}</h2>
             </div>
         );
     };

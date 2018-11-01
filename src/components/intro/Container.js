@@ -8,10 +8,12 @@ class Container extends Component{
     render(){
         return(
           <div className="container">
-              <div>
-                  <Title title="삶은 여행, 여행하는 개발자 '박휘겸'입니다." /><br/>
-                  <SubTitle ename="Park Hwigyeom"/>
-                  <Email email="phg5590@gmail.com"/>
+              <div id="intro">
+                  <div>
+                      <Title title="삶은 여행, 여행하는 개발자 '박휘겸'입니다." /><br/>
+                      <SubTitle subtitle="Park Hwigyeom's Portfolio"/>
+                      <Email email="phg5590@gmail.com"/>
+                  </div>
                   <ArrowDown/>
               </div>
           </div>

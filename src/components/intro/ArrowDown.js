@@ -7,7 +7,7 @@ class ArrowDown extends Component{
           textAlign : "center"
         };
         return(
-            <div>
+            <div style={{height:"5%"}}>
                 <h1 style={commonStyle}><img src={arrowDown}/></h1>
             </div>
         );
