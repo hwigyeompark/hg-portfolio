@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import arrowDown from '../images/icon_arrow_down.png';
+import arrowDown from '../images/arr_down.png';
 
 class ArrowDown extends Component{
     render(){
@@ -7,7 +7,7 @@ class ArrowDown extends Component{
           textAlign : "center"
         };
         return(
-            <div style={{height:"5%"}}>
+            <div style={{position:"absolute", marginLeft:"auto", marginRight:"auto"}}>
                 <h1 style={commonStyle}><img src={arrowDown}/></h1>
             </div>
         );
