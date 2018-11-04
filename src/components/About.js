@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import MyPic from "./MyPic";
 import MyIntro from "./MyIntro";
 
-class AboutBox extends Component{
+class About extends Component{
     render(){
         const boxStyle = {
             width:"60%",
@@ -18,4 +18,4 @@ class AboutBox extends Component{
         );
     }
 }
-export default AboutBox;
+export default About;

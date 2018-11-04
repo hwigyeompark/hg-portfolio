@@ -3,9 +3,9 @@ import Title from "./Title";
 import SubTitle from "./SubTitle";
 import Email from "./Email";
 import ArrowDown from "./ArrowDown";
-import MyPic from "./MyPic";
-import MyIntro from "./MyIntro";
-import AboutBox from "./AboutBox";
+import About from "./About";
+import Project from "./Project";
+import ProjectItem from "./ProjectItem";
 
 class Container extends Component{
     render(){
@@ -22,7 +22,12 @@ class Container extends Component{
 
               <div id="about">
                   <Title title="About" />
-                  <AboutBox/>
+                  <About/>
+              </div>
+
+              <div id="projects">
+                  <Title title="Projects"/>
+                  <Project/>
               </div>
           </div>
         );
