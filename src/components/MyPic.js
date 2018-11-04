@@ -6,7 +6,7 @@ class MyPic extends Component{
         const picStyle = {
             div : {
                 width : "40%",
-                height : "auto"
+                height : "40%"
             },
             img : {
                 width:"100%",
