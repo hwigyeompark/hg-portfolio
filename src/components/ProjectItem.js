@@ -3,17 +3,18 @@ import React, {Component} from 'react';
 class ProjectItem extends Component{
     render(){
         const projectItemStyle = {
-            width:"550px",
-            height:"350px",
-            backgroundColor:"#000000",
-            backgroundImage:`url(${this.props.pic})`,
-            backgroundSize:"150%",
-            backgroundPosition:"center",
-            margin:"1.3%"
+            backgroundImage:`url(${this.props.pic})`
+        };
+        const pStyle={
+            wordBreak:"break-all"
         };
         return(
-          <div style={projectItemStyle}>
-          </div>
+            <div style={projectItemStyle} className="project-item">
+                <div className="project-item-box">
+                    <h1>{this.props.name}</h1>
+                    <p style={pStyle}>{this.props.content}</p>
+                </div>
+            </div>
         );
     }
 
