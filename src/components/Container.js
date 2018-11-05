@@ -6,6 +6,7 @@ import ArrowDown from "./ArrowDown";
 import About from "./About";
 import Project from "./Project";
 import ProjectItem from "./ProjectItem";
+import Contact from "./Contact";
 
 class Container extends Component{
     render(){
@@ -28,6 +29,11 @@ class Container extends Component{
               <div id="projects">
                   <Title title="Projects"/>
                   <Project/>
+              </div>
+
+              <div id="contact">
+                  <Title title="Contact"/>
+                  <Contact/>
               </div>
           </div>
         );
