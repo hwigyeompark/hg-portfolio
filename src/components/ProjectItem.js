@@ -1,7 +1,15 @@
 import React, {Component} from 'react';
+import { withRouter } from 'react-router-dom';
 import './Project';
 
 class ProjectItem extends Component{
+    constructor(props){
+        super(props);
+        this.detailProject.bind(this);
+    }
+    detailProject = () => {
+        this.props.history.push("/projects/htmlHelper");
+    };
     state = {
         projects: [
             {
@@ -50,13 +58,13 @@ class ProjectItem extends Component{
             }
         };
         return(
-            <div style={projectItemStyle} className="project-item">
+            <div style={projectItemStyle} className="project-item" onClick={this.detailProject}>
                 <div className="project-item-box">
-                    <p style={boxStyle.p}>{this.handleCreate}</p>
+                    <p style={boxStyle.p}></p>
                 </div>
             </div>
         );
     }
 
 }
-export default ProjectItem;
+export default withRouter(ProjectItem);

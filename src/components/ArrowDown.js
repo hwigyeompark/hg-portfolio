@@ -8,7 +8,7 @@ class ArrowDown extends Component{
         };
         return(
             <div style={{position:"absolute", marginLeft:"auto", marginRight:"auto"}}>
-                <h1 style={commonStyle}><img src={arrowDown}/></h1>
+                <h1 style={commonStyle}><image href={arrowDown}/></h1>
             </div>
         );
     }

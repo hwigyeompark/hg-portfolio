@@ -10,18 +10,23 @@ class Project extends Component{
     render(){
         const images = [
             {
+                id : '0',
                 img : project_1
             },
             {
+                id : '1',
                 img : project_2
             },
             {
+                id : '2',
                 img : project_3
             },
             {
+                id : '3',
                 img : project_4
             },
             {
+                id : '4',
                 img : project_5
             }
         ];
@@ -37,7 +42,7 @@ class Project extends Component{
         return(
             <div style={projectStyle}>
                 {
-                    images.map(image => <ProjectItem pic={image.img}/>)
+                    images.map(image => <ProjectItem pic={image.img} key={image.id}/>)
                 }
             </div>
         );

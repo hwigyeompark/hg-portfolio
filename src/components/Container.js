@@ -5,7 +5,6 @@ import Email from "./Email";
 import ArrowDown from "./ArrowDown";
 import About from "./About";
 import Project from "./Project";
-import ProjectItem from "./ProjectItem";
 import Contact from "./Contact";
 
 class Container extends Component{
