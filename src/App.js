@@ -14,15 +14,6 @@ class App extends Component {
     return (
       <Fragment>
         <Container/>
-        <BrowserRouter>
-          <div>
-            <Route path="/projects/htmlHelper" component={HtmlHelper}/>
-            <Route path="/projects/hackerMon" component={HackerMon}/>
-            <Route path="/projects/eightRecord" component={EightRecord}/>
-            <Route path="/projects/fashionAble" component={FashionAble}/>
-            <Route path="/projects/myTrello" component={MyTrello}/>
-          </div>
-        </BrowserRouter>
       </Fragment>
     );
   };

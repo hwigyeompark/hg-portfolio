@@ -3,13 +3,6 @@ import { withRouter } from 'react-router-dom';
 import './Project';
 
 class ProjectItem extends Component{
-    constructor(props){
-        super(props);
-        this.detailProject.bind(this);
-    }
-    detailProject = () => {
-        this.props.history.push("/projects/htmlHelper");
-    };
     state = {
         projects: [
             {
@@ -39,32 +32,31 @@ class ProjectItem extends Component{
             }
         ]
     };
-    handleCreate = () => {
+/*    handleCreate = () => {
         const { projects } = this.state;
         this.setState({
             projects: projects.concat({id: this.id++})
         })
-    };
+    };*/
     render(){
         const projectItemStyle = {
             backgroundImage:`url(${this.props.pic})`
         };
-        const boxStyle={
+/*        const boxStyle={
             h1 : {
                 textAlign : "center"
             },
             p : {
                 wordBreak : "break-all"
             }
-        };
+        };*/
         return(
-            <div style={projectItemStyle} className="project-item" onClick={this.detailProject}>
+            <div style={projectItemStyle} className="project-item">
                 <div className="project-item-box">
-                    <p style={boxStyle.p}></p>
                 </div>
             </div>
         );
     }
 
 }
-export default withRouter(ProjectItem);
+export default ProjectItem;
