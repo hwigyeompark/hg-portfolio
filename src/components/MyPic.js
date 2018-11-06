@@ -15,7 +15,7 @@ class MyPic extends Component{
         };
         return(
           <div style={picStyle.div}>
-              <image style={picStyle.img} href={lifeClock}/>
+              <img style={picStyle.img} src={lifeClock}/>
           </div>
         );
     }

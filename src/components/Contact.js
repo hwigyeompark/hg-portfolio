@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import Button from "./Button";
 
 class Contact extends Component{
@@ -11,7 +12,7 @@ class Contact extends Component{
         };
         return(
             <div style={boxStyle}>
-               <Button name="github.com/hwigyeompark"/>
+               <Button icon={faGithub} name="github.com/hwigyeompark"/>
             </div>
         );
     }
