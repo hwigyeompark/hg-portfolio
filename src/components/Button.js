@@ -2,6 +2,14 @@ import React, {Component} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 class Button extends Component{
+    goToLink = () => {
+        if (this.props.name == "phg5590@gmail.com"){
+            window.open("https://www.google.com/gmail", "_blank");
+        }
+        else {
+            window.open("https://github.com/hwigyeompark", "_blank");
+        }
+    };
     render(){
         const btnStyle = {
                 border : "1px solid #B4B3B3",
@@ -13,7 +21,7 @@ class Button extends Component{
         };
         return(
             <div>
-                <button style={btnStyle}><FontAwesomeIcon icon={this.props.icon}/> {this.props.name}</button>
+                <button style={btnStyle} onClick={this.goToLink}><FontAwesomeIcon icon={this.props.icon}/> {this.props.name}</button>
             </div>
         );
     }
