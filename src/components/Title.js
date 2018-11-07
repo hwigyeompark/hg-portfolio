@@ -5,7 +5,7 @@ class Title extends Component{
         const commonStyle = {
           textAlign:"center",
           fontWeight:"lighter",
-          fontSize:"3rem",
+          fontSize:"2.5rem",
         };
         return (
             <div>

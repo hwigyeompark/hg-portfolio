@@ -5,10 +5,7 @@ class Button extends Component{
     render(){
         return(
             <div>
-                <button>
-                    <FontAwesomeIcon icon={this.props.icon}/>
-                        {this.props.name}
-                </button>
+                <button><FontAwesomeIcon icon={this.props.icon}/>{this.props.name}</button>
             </div>
         );
     }

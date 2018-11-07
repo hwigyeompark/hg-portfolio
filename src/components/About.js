@@ -7,7 +7,7 @@ class About extends Component{
         const boxStyle = {
             width:"60%",
             margin:"0 auto",
-            marginTop:"2%",
+            marginTop:"2.3%",
             display:"flex"
         };
         return(

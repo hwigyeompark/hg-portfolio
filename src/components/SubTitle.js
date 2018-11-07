@@ -5,7 +5,7 @@ class SubTitle extends Component{
         const commonStyle = {
             textAlign:"center",
             fontWeight:"lighter",
-            fontSize:"2.5rem"
+            fontSize:"2rem"
         };
         return (
             <div>
