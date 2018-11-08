@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { withRouter } from 'react-router-dom';
-import HtmlHelper from "./projects/HtmlHelper";
 
 class ProjectItem extends Component{
     state = {
@@ -32,16 +31,14 @@ class ProjectItem extends Component{
             }
         ]
     };
-/*    handleCreate = () => {
-        const { projects } = this.state;
-        this.setState({
-            projects: projects.concat({id: this.id++})
-        })
-    };*/
+    detailProject = () => {
+        this.props.history.push("/projects/htmlHelper");
+    };
     render() {
         const projectItemStyle = {
             backgroundImage: `url(${this.props.pic})`
         };
+
 /*        const boxStyle={
             h1 : {
                 textAlign : "center"
@@ -51,11 +48,11 @@ class ProjectItem extends Component{
             }
         };*/
         return(
-            <div style={projectItemStyle} className="project-item">
+            <div style={projectItemStyle} className="project-item" onClick={this.detailProject}>
                 <div className="project-item-box">
                 </div>
             </div>
         );
     }
 }
-export default ProjectItem;
+export default withRouter(ProjectItem);
