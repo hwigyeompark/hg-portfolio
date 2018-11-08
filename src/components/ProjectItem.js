@@ -1,8 +1,16 @@
 import React, {Component} from 'react';
 import { withRouter } from 'react-router-dom';
-import './Project';
+import HtmlHelper from "./projects/HtmlHelper";
 
 class ProjectItem extends Component{
+    constructor(props){
+        super(props);
+    }
+    componentWillMount() {
+        this.props.history.listen(() => {
+            console.log("/projects/htmlHelper", this.props.history.location.pathname);
+        });
+    }
     state = {
         projects: [
             {
@@ -38,9 +46,9 @@ class ProjectItem extends Component{
             projects: projects.concat({id: this.id++})
         })
     };*/
-    render(){
+    render() {
         const projectItemStyle = {
-            backgroundImage:`url(${this.props.pic})`
+            backgroundImage: `url(${this.props.pic})`
         };
 /*        const boxStyle={
             h1 : {
@@ -51,12 +59,11 @@ class ProjectItem extends Component{
             }
         };*/
         return(
-            <div style={projectItemStyle} className="project-item">
+            <div style={projectItemStyle} className="project-item" onClick={this.componentWillMount}>
                 <div className="project-item-box">
                 </div>
             </div>
         );
     }
-
 }
-export default ProjectItem;
+export default withRouter(ProjectItem);
