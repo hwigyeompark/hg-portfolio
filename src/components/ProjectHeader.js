@@ -6,8 +6,10 @@ class ProjectHeader extends Component{
         const style = {
             div : {
                 width: "100%",
-                height: "700px",
-                background: `url(${this.props.img})`
+                height: "800px",
+                background: `url(${this.props.img})`,
+                backgroundPosition:"center",
+                backgroundSize:"cover"
             },
         };
         return(

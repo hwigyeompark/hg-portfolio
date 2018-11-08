@@ -3,14 +3,6 @@ import { withRouter } from 'react-router-dom';
 import HtmlHelper from "./projects/HtmlHelper";
 
 class ProjectItem extends Component{
-    constructor(props){
-        super(props);
-    }
-    componentWillMount() {
-        this.props.history.listen(() => {
-            console.log("/projects/htmlHelper", this.props.history.location.pathname);
-        });
-    }
     state = {
         projects: [
             {
@@ -59,11 +51,11 @@ class ProjectItem extends Component{
             }
         };*/
         return(
-            <div style={projectItemStyle} className="project-item" onClick={this.componentWillMount}>
+            <div style={projectItemStyle} className="project-item">
                 <div className="project-item-box">
                 </div>
             </div>
         );
     }
 }
-export default withRouter(ProjectItem);
+export default ProjectItem;

@@ -9,7 +9,7 @@ class SubTitle extends Component{
         };
         return (
             <div>
-                <h2 style={commonStyle}>{this.props.subtitle}</h2>
+                <h2 style={commonStyle}>{this.props.subTitle}</h2>
             </div>
         );
     };
