@@ -3,7 +3,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 class Button extends Component{
     goToLink = () => {
-        if (this.props.name == "phg5590@gmail.com"){
+        if (this.props.name === "phg5590@gmail.com"){
             window.open("https://www.google.com/gmail", "_blank");
         }
         else {
