@@ -12,7 +12,7 @@ class ProjectItem extends Component{
     };
     render() {
         const projectItemStyle = {
-            backgroundImage: `url(${this.props.pic})`,
+            backgroundImage: `url(${this.props.pic})`
         };
 
         return(

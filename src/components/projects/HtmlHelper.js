@@ -3,6 +3,7 @@ import SubTitle from "../SubTitle";
 import ProjectHeader from "../ProjectHeader";
 import Project_1 from '../../images/header_project_1.png';
 import ThirdTitle from "../ThirdTitle";
+import ProjectIntro from "../../ProjectIntro";
 
 class HtmlHelper extends Component{
     render(){
@@ -13,9 +14,7 @@ class HtmlHelper extends Component{
                     <SubTitle subTitle="HTMLHelper"/>
                     <ThirdTitle thirdTitle="2017.4.~12."/>
                 </div>
-                <div>
-                    <ThirdTitle thirdTitle="프로젝트 소개"/>
-                </div>
+                <ProjectIntro introMent="HTML 입문자들을 위한 쉽고 간편한 Drag&Drop 교육용 웹 사이트"/>
             </div>
         );
     }
