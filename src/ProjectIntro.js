@@ -8,7 +8,7 @@ class ProjectIntro extends Component{
                 display:"flex",
                 flexDirection:"column",
                 marginLeft:"15%",
-                marginTop:"5%"
+                marginTop:"7%"
             },
             p:{
                 wordBreak:"break-all",

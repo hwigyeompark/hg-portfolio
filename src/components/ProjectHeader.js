@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Title from "./Title";
 
 class ProjectHeader extends Component{
     render(){
