@@ -5,13 +5,14 @@ import Project_1 from '../../images/header_project_1.png';
 import ThirdTitle from "../ThirdTitle";
 import ProjectIntro from "../../ProjectIntro";
 import MyRole from "../MyRole";
+import UsedTechnique from "../UsedTechnique";
 
 class HtmlHelper extends Component{
     render(){
         return(
             <div id="html-helper">
                 <ProjectHeader title="HTMLHelper" pic={Project_1}/>
-                <div>
+                <div className="project-detail-name">
                     <SubTitle subTitle="HTMLHelper"/>
                     <ThirdTitle thirdTitle="2017.4.~12."/>
                 </div>
@@ -20,6 +21,8 @@ class HtmlHelper extends Component{
                         introMent1="- 페이지 전체 구성"
                         introMent2="- 디자인 및 퍼블리싱"
                         introMent3="- Drag&Drop 및 세부 효과 구현"/>
+                <UsedTechnique introTitle1="Publishing" introMent1="- HTML, CSS, Bootstrap..."
+                introTitle2="Front-End" introMent2="Javascript, jQuery..."/>
             </div>
         );
     }
