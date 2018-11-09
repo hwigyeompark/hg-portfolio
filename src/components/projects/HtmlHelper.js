@@ -14,7 +14,7 @@ class HtmlHelper extends Component{
                     <ThirdTitle thirdTitle="2017.4.~12."/>
                 </div>
                 <div>
-                    <SubTitle subTitle="프로젝트 소개"/>
+                    <ThirdTitle thirdTitle="프로젝트 소개"/>
                 </div>
             </div>
         );
