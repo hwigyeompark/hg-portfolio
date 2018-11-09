@@ -4,6 +4,7 @@ import Container from "./components/Container";
 import "./css/common.css";
 import "./css/style.css";
 import HtmlHelper from "./components/projects/HtmlHelper";
+import HackerMon from "./components/projects/HackerMon";
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Container/>
               <div>
                   <Route path="/projects/htmlHelper" component={HtmlHelper}/>
+                  <Route path="/projects/hackerMon" component={HackerMon}/>
               </div>
       </Fragment>
     );
