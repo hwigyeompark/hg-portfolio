@@ -4,9 +4,10 @@ class ScreenShotItem extends Component{
     render() {
         const style = {
            div : {
-               width:"800px",
-               height:"400px",
-               margin:"1%"
+               width:"900px",
+               height:"460px",
+               margin:"1%",
+               border:"1px solid #e0e0e0"
            },
             img:{
                width:"100%",
@@ -16,7 +17,7 @@ class ScreenShotItem extends Component{
 
         return(
                 <div style={style.div} className="screenshot-item" >
-                    <img src={this.props.pic}/>
+                    <img style={style.img} src={this.props.pic}/>
                 </div>
         );
     }

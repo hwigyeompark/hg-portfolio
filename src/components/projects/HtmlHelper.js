@@ -7,7 +7,6 @@ import ProjectIntro from "../../ProjectIntro";
 import MyRole from "../MyRole";
 import UsedTechnique from "../UsedTechnique";
 import ScreenShot from "../ScreenShot";
-import ScreenShotItem from "../ScreenShotItem";
 import htmlHelper_1 from '../../images/html_helper_1.png';
 import htmlHelper_2 from '../../images/html_helper_2.png';
 import htmlHelper_3 from '../../images/html_helper_3.png';
@@ -17,6 +16,28 @@ import ScreenShotBox from "../ScreenShotBox";
 
 class HtmlHelper extends Component{
     render(){
+        const images = [
+            {
+                id : '0',
+                img : htmlHelper_1
+            },
+            {
+                id : '1',
+                img : htmlHelper_2
+            },
+            {
+                id : '2',
+                img : htmlHelper_3
+            },
+            {
+                id : '3',
+                img : htmlHelper_4
+            },
+            {
+                id : '4',
+                img : htmlHelper_5
+            }
+        ];
         return(
             <div id="html-helper">
                 <ProjectHeader title="HTMLHelper" pic={Project_1}/>
@@ -32,13 +53,11 @@ class HtmlHelper extends Component{
                 <UsedTechnique introTitle1="Publishing" introMent1="- HTML, CSS, Bootstrap..."
                 introTitle2="Front-End" introMent2="Javascript, jQuery..."/>
                 <ScreenShot />
-                    <ScreenShotBox>
-                        <ScreenShotItem pic={htmlHelper_1}/>
-                        <ScreenShotItem pic={htmlHelper_2}/>
-                        <ScreenShotItem pic={htmlHelper_3}/>
-                        <ScreenShotItem pic={htmlHelper_4}/>
-                        <ScreenShotItem pic={htmlHelper_5}/>
-                    </ScreenShotBox>
+                    <ScreenShotBox pic={htmlHelper_2} explanation1="- Intro 화면"/>
+                    <ScreenShotBox pic={htmlHelper_3} explanation1="- "/>
+                    <ScreenShotBox pic={htmlHelper_4}/>
+                    <ScreenShotBox pic={htmlHelper_1}/>
+                    <ScreenShotBox pic={htmlHelper_5}/>
             </div>
         );
     }
