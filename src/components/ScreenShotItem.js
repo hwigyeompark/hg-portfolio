@@ -7,7 +7,7 @@ class ScreenShotItem extends Component{
                width:"900px",
                height:"460px",
                margin:"1%",
-               border:"1px solid #e0e0e0"
+               border:"1px solid #C4C3C3"
            },
             img:{
                width:"100%",
