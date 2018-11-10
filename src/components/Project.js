@@ -42,7 +42,7 @@ class Project extends Component{
         return(
             <div style={projectStyle}>
                 {
-                    images.map(image => <ProjectItem pic={image.img} key={image.id}/>)
+                    images.map(image => <ProjectItem id={image.id} pic={image.img} key={image.id}/>)
                 }
             </div>
         );

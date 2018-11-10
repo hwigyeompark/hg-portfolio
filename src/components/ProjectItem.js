@@ -3,12 +3,24 @@ import {withRouter} from 'react-router-dom';
 
 class ProjectItem extends Component{
     detailProject = () =>{
-        this.props.history.push("/projects/htmlHelper");
-        /*if (this.props.key === 0) {
-            this.props.history.push("/projects/htmlHelper");
-        }else if(this.props.id === 1){
+        switch (parseInt(this.props.id)) {
+            case 0:
+                this.props.history.push("/projects/htmlHelper");
+                break;
+            case 1:
                 this.props.history.push("/projects/hackerMon");
-        }*/
+                break;
+            case 2:
+                this.props.history.push("/projects/eightRecord");
+                break;
+            case 3:
+                this.props.history.push("/projects/fashionAble");
+                break;
+            case 4:
+                this.props.history.push("/projects/myTrello");
+                break;
+        }
+
     };
     render() {
         const projectItemStyle = {
