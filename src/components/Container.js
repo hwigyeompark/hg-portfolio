@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Title from "./Title";
 import SubTitle from "./SubTitle";
 import ThirdTitle from "./ThirdTitle";
-import ArrowDown from "./ArrowDown";
 import About from "./About";
 import Project from "./Project";
 import Contact from "./Contact";
