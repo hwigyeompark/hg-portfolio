@@ -18,8 +18,8 @@ class MyTrello extends Component{
             <div id="my-trello">
                 <ProjectHeader pic={Project_5}/>
                 <div className="project-detail-name">
-                    <SubTitle subTitle="FashionAble"/><br/>
-                    <ThirdTitle thirdTitle="2018.3.~6."/>
+                    <SubTitle subTitle="MyTrello"/><br/>
+                    <ThirdTitle thirdTitle="2018.8.~9."/>
                 </div>
                 <ProjectIntro introMent="'Trello'라는 기존에 있는 서비스를 나만의 Trello로 재탄생 시켜 만든 사이트"/>
                 <MyRole introTitle="개인 프로젝트"
@@ -27,7 +27,7 @@ class MyTrello extends Component{
                         introMent2="- 퍼블리싱 및 프론트엔드 구현"/>
                 <UsedTechnique introTitle1="Front-End" introMent1="- jQuery, javascript, HTML, CSS..."/>
                 <ScreenShot />
-                <ScreenShotBox pic={myTrello_1} explanation1="- 메인페이지" explanation2="- 네비게이션 바로 카테고리 이동" explanation3="비주얼 슬라이드"/>
+                <ScreenShotBox pic={myTrello_1} explanation1="- 메인페이지" explanation2="- 네비게이션 바로 카테고리 이동" explanation3="- 비주얼 슬라이드"/>
                 <ScreenShotBox pic={myTrello_2} explanation1="- "/>
                 <ScreenShotBox pic={myTrello_3} explanation1="- "/>
             </div>

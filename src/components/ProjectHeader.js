@@ -7,7 +7,7 @@ class ProjectHeader extends Component{
                 width: "100%",
                 height: "700px",
                 background: `url(${this.props.pic})`,
-                backgroundPosition:"center",
+                backgroundPosition:"top",
                 backgroundSize:"cover",
             },
         };
