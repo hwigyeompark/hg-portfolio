@@ -21,7 +21,7 @@ class Button extends Component{
         };
         return(
             <div>
-                <button style={btnStyle} onClick={this.goToLink}><FontAwesomeIcon icon={this.props.icon}/> {this.props.name}</button>
+                <button style={btnStyle} className="contact-btn" onClick={this.goToLink}><FontAwesomeIcon icon={this.props.icon}/> {this.props.name}</button>
             </div>
         );
     }

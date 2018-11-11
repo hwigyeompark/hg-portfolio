@@ -28,8 +28,6 @@ class ProjectItem extends Component{
 
         return(
             <div style={projectItemStyle} className="project-item" onClick={this.detailProject} key={this.props.key} >
-                <div className="project-item-box">
-                </div>
             </div>
         );
     }

@@ -16,7 +16,6 @@ class Container extends Component{
                       <Title title="삶은 여행, 여행하는 개발자 '박휘겸'입니다." /><br/>
                       <SubTitle subTitle="Park Hwigyeom's Portfolio"/><br/><br/><br/><br/><br/>
                       <ThirdTitle thirdTitle="phg5590@gmail.com"/>
-                      <ArrowDown/>
                   </div>
               </div>
 
