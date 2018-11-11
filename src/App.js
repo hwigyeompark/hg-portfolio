@@ -15,7 +15,7 @@ class App extends Component {
       <Fragment className="App">
         <Container/>
               <div>
-                  <Route path="/projects/htmlHelper" component={HtmlHelper}/>
+                  <Route exact path="/projects/htmlHelper" component={HtmlHelper}/>
                   <Route path="/projects/hackerMon" component={HackerMon}/>
                   <Route path="/projects/hackerMon" component={EightRecord}/>
                   <Route path="/projects/hackerMon" component={FashionAble}/>
