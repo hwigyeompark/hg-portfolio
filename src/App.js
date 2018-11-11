@@ -17,9 +17,9 @@ class App extends Component {
               <div>
                   <Route exact path="/projects/htmlHelper" component={HtmlHelper}/>
                   <Route path="/projects/hackerMon" component={HackerMon}/>
-                  <Route path="/projects/hackerMon" component={EightRecord}/>
-                  <Route path="/projects/hackerMon" component={FashionAble}/>
-                  <Route path="/projects/hackerMon" component={MyTrello}/>
+                  <Route path="/projects/eightRecord" component={EightRecord}/>
+                  <Route path="/projects/fashionAble" component={FashionAble}/>
+                  <Route path="/projects/myTrello" component={MyTrello}/>
               </div>
       </Fragment>
     );
