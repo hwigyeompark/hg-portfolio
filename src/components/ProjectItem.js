@@ -20,7 +20,6 @@ class ProjectItem extends Component{
                 this.props.history.push("/projects/myTrello");
                 break;
         }
-
     };
     render() {
         const projectItemStyle = {

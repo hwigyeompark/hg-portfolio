@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="76d74d2f-d8ad-49ef-9c54-6ca13f94cac7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProjectItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/HtmlHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/HtmlHelper.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectItem.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProjectItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ProjectItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+            <state relative-caret-position="399">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -56,6 +57,30 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HtmlHelper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/projects/HtmlHelper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="33" column="79" lean-forward="true" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,7 +139,6 @@
         <option value="$PROJECT_DIR$/src/components/SubTitle.js" />
         <option value="$PROJECT_DIR$/src/components/Button.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Container.js" />
         <option value="$PROJECT_DIR$/src/components/ThirdTitle.js" />
         <option value="$PROJECT_DIR$/src/components/MyIntro.js" />
@@ -128,11 +152,12 @@
         <option value="$PROJECT_DIR$/src/components/UsedTechnique.js" />
         <option value="$PROJECT_DIR$/src/components/ScreenShot.js" />
         <option value="$PROJECT_DIR$/src/components/ScreenShotBox.js" />
-        <option value="$PROJECT_DIR$/src/components/projects/HtmlHelper.js" />
         <option value="$PROJECT_DIR$/src/components/ScreenShotExplanation.js" />
         <option value="$PROJECT_DIR$/src/components/ScreenShotItem.js" />
         <option value="$PROJECT_DIR$/src/components/Project.js" />
         <option value="$PROJECT_DIR$/src/components/ProjectItem.js" />
+        <option value="$PROJECT_DIR$/src/components/projects/HtmlHelper.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -289,7 +314,7 @@
       <workItem from="1540645863885" duration="29253000" />
       <workItem from="1541043839077" duration="598000" />
       <workItem from="1541078933255" duration="97099000" />
-      <workItem from="1541678511522" duration="46295000" />
+      <workItem from="1541678511522" duration="46893000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1539971577917</created>
@@ -550,22 +575,29 @@
       <option name="project" value="LOCAL" />
       <updated>1541848759394</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="complete for project router">
+      <created>1541894370081</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1541894370081</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199891000" />
+    <option name="totallyTimeSpent" value="200489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975923" visible="true" weight="0.11433087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975923" visible="true" weight="0.11433087" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32929516" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31188658" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31188658" />
       <window_info id="npm" order="2" sideWeight="0.5024077" side_tool="true" weight="0.2653277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.2944384" />
@@ -607,7 +639,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Complete About section first." />
     <MESSAGE value="Add Project and ProjectItem components" />
     <MESSAGE value="update ProjectItem and Project" />
     <MESSAGE value="add Button and Contact" />
@@ -632,11 +663,12 @@
     <MESSAGE value="add Screenshot, ScreenshotBox, ScreenshotItem" />
     <MESSAGE value="add ScreenShotExplanation" />
     <MESSAGE value="update ProjectItem and ScreenShotItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="update ProjectItem and ScreenShotItem" />
+    <MESSAGE value="complete for project router" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete for project router" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -827,16 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Title.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -974,16 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/projects/HtmlHelper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ScreenShotItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1010,10 +1022,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ProjectItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        <state relative-caret-position="399">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/projects/HtmlHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="33" column="79" lean-forward="true" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>

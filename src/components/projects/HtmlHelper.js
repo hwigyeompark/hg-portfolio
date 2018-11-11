@@ -16,28 +16,6 @@ import ScreenShotBox from "../ScreenShotBox";
 
 class HtmlHelper extends Component{
     render(){
-        const images = [
-            {
-                id : '0',
-                img : htmlHelper_1
-            },
-            {
-                id : '1',
-                img : htmlHelper_2
-            },
-            {
-                id : '2',
-                img : htmlHelper_3
-            },
-            {
-                id : '3',
-                img : htmlHelper_4
-            },
-            {
-                id : '4',
-                img : htmlHelper_5
-            }
-        ];
         return(
             <div id="html-helper">
                 <ProjectHeader title="HTMLHelper" pic={Project_1}/>
