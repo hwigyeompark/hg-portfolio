@@ -9,9 +9,7 @@ import UsedTechnique from "../UsedTechnique";
 import ScreenShot from "../ScreenShot";
 import hackerMon_1 from '../../images/hacker_mon_1.png';
 import hackerMon_2 from '../../images/hacker_mon_2.png';
-
 import ScreenShotBox from "../ScreenShotBox";
-import Title from "../Title";
 
 class HackerMon extends Component{
     render(){
@@ -19,19 +17,18 @@ class HackerMon extends Component{
             <div id="hacker-mon">
                 <ProjectHeader pic={Project_2}/>
                 <div className="project-detail-name">
-                    <Title title="HackerMon(해커몬)"/>
-                    <SubTitle subTitle="제6회 단국대학교 집현전 해커톤"/>
+                    <SubTitle subTitle="HackerMon(해커몬)"/><br/>
+                    <ThirdTitle thirdTitle="제6회 단국대학교 집현전 해커톤"/><br/><br/>
                     <ThirdTitle thirdTitle="2017.5.19.~5.20."/>
                 </div>
                 <ProjectIntro introMent="해커톤 팀빌딩을 게임 퀘스트 형식과 같이 재밌고 편하게 할 수 있게끔 하는 웹 사이트"/>
-                <MyRole introTitle="UI/UX 및 프론트엔드 개발"
-                        introMent1="- 페이지 전체 구성"
-                        introMent2="- 디자인 및 퍼블리싱"
-                        introMent3="- Drag&Drop 및 세부 효과 구현"/>
+                <MyRole introTitle="프론트엔드 개발"
+                        introMent1="- 모든 페이지 구성 및 퍼블리싱"
+                        introMent2="- 팝업 기능 구현"/>
                 <UsedTechnique introTitle1="Publishing" introMent1="- HTML, CSS, Bootstrap..."
                                introTitle2="Front-End" introMent2="Javascript, jQuery..."/>
                 <ScreenShot />
-                <ScreenShotBox pic={hackerMon_1} explanation1="- Intro 화면"/>
+                <ScreenShotBox pic={hackerMon_1} explanation1="- 메인페이지" explanation2="- 해커톤 리스트에서 각 정보 확인"/>
                 <ScreenShotBox pic={hackerMon_2} explanation1="- "/>
             </div>
         );

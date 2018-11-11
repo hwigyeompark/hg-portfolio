@@ -13,6 +13,7 @@ import htmlHelper_3 from '../../images/html_helper_3.png';
 import htmlHelper_4 from '../../images/html_helper_4.png';
 import htmlHelper_5 from '../../images/html_helper_5.png';
 import ScreenShotBox from "../ScreenShotBox";
+import SubTitle from "../SubTitle";
 
 
 class HtmlHelper extends Component{
@@ -21,7 +22,7 @@ class HtmlHelper extends Component{
             <div id="html-helper">
                 <ProjectHeader pic={Project_1}/>
                 <div className="project-detail-name">
-                    <Title subTitle="HTMLHelper"/>
+                    <SubTitle subTitle="HTMLHelper"/><br/>
                     <ThirdTitle thirdTitle="2017.4.~12."/>
                 </div>
                 <ProjectIntro introMent="HTML 입문자들을 위한 쉽고 간편한 Drag&Drop 교육용 웹 사이트"/>
