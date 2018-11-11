@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="76d74d2f-d8ad-49ef-9c54-6ca13f94cac7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EightRecordBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EightRecordBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EightRecordExplanation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EightRecordExplanation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EightRecordItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EightRecordItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/EightRecord.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/EightRecord.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/FashionAble.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/FashionAble.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,23 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EightRecord.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EightRecord.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/projects/EightRecord.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScreenShotBox.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ScreenShotBox.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="22" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -57,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/ScreenShotItem.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="15" lean-forward="true" selection-end-line="24" selection-end-column="30" />
+              <caret line="17" column="15" selection-end-line="24" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -65,8 +50,8 @@
       <file leaf-file-name="EightRecordItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/EightRecordItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="190">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -74,20 +59,11 @@
       <file leaf-file-name="EightRecordBox.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/EightRecordBox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="190">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScreenShotExplanation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ScreenShotExplanation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -104,10 +80,34 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="299">
               <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FashionAble.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/projects/FashionAble.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HackerMon.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/projects/HackerMon.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="11" column="45" selection-end-line="36" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,7 +152,6 @@
         <option value="$PROJECT_DIR$/src/components/HackerMon.js" />
         <option value="$PROJECT_DIR$/src/components/projects.js" />
         <option value="$PROJECT_DIR$/src/components/projects/8Record.js" />
-        <option value="$PROJECT_DIR$/src/components/projects/FashionAble.js" />
         <option value="$PROJECT_DIR$/src/components/projects/MyTrello.js" />
         <option value="$PROJECT_DIR$/src/components/ProjectList.js" />
         <option value="$PROJECT_DIR$/src/components/ArrowDown.js" />
@@ -184,8 +183,9 @@
         <option value="$PROJECT_DIR$/src/components/ScreenShotExplanation.js" />
         <option value="$PROJECT_DIR$/src/components/EightRecordExplanation.js" />
         <option value="$PROJECT_DIR$/src/components/EightRecordItem.js" />
-        <option value="$PROJECT_DIR$/src/components/EightRecordBox.js" />
         <option value="$PROJECT_DIR$/src/components/projects/EightRecord.js" />
+        <option value="$PROJECT_DIR$/src/components/EightRecordBox.js" />
+        <option value="$PROJECT_DIR$/src/components/projects/FashionAble.js" />
       </list>
     </option>
   </component>
@@ -200,7 +200,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -335,7 +335,7 @@
       <workItem from="1540645863885" duration="29253000" />
       <workItem from="1541043839077" duration="598000" />
       <workItem from="1541078933255" duration="97099000" />
-      <workItem from="1541678511522" duration="52569000" />
+      <workItem from="1541678511522" duration="53424000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1539971577917</created>
@@ -631,20 +631,34 @@
       <option name="project" value="LOCAL" />
       <updated>1541899437412</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="update EightRecord set">
+      <created>1541900923499</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1541900923499</updated>
+    </task>
+    <task id="LOCAL-00044" summary="update EightRecord and Box, Item">
+      <created>1541901217093</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1541901217093</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206165000" />
+    <option name="totallyTimeSpent" value="207020000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975923" visible="true" weight="0.11433087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975923" visible="true" weight="0.2318376" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.33259913" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32929516" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31188658" />
       <window_info id="npm" order="2" sideWeight="0.5024077" side_tool="true" weight="0.2653277" />
@@ -688,8 +702,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update Project and ProjectItem" />
-    <MESSAGE value="update ProjectItem" />
     <MESSAGE value="update Button and Contact, MyPic" />
     <MESSAGE value="update common styles and success show font-awesome" />
     <MESSAGE value="complete Contact section" />
@@ -713,7 +725,9 @@
     <MESSAGE value="update HackerMon" />
     <MESSAGE value="complete for HackerMon" />
     <MESSAGE value="add EightRecordItem, EightRecordBox, EightRecordExplanation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add EightRecordItem, EightRecordBox, EightRecordExplanation" />
+    <MESSAGE value="update EightRecord set" />
+    <MESSAGE value="update EightRecord and Box, Item" />
+    <option name="LAST_COMMIT_MESSAGE" value="update EightRecord and Box, Item" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -767,13 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/projects/FashionAble.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1012,16 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/projects/HackerMon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="11" column="45" lean-forward="true" selection-end-line="36" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ThirdTitle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1032,16 +1029,6 @@
     <entry file="file://$PROJECT_DIR$/src/images/header_project_3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
@@ -1049,10 +1036,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ScreenShotBox.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ScreenShotExplanation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ScreenShotItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="22" selection-end-line="23" selection-end-column="29" />
+          <caret line="17" column="15" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/EightRecordItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ScreenShotBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/projects/EightRecord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/EightRecordBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -1066,41 +1094,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ScreenShotExplanation.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="299">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ScreenShotItem.js">
+    <entry file="file://$PROJECT_DIR$/src/components/projects/HackerMon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="15" lean-forward="true" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/EightRecordBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="19">
+          <caret line="11" column="45" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/EightRecordItem.js">
+    <entry file="file://$PROJECT_DIR$/src/components/projects/FashionAble.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/projects/EightRecord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+        <state relative-caret-position="314">
+          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
