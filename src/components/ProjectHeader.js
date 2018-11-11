@@ -5,7 +5,7 @@ class ProjectHeader extends Component{
         const style = {
             div : {
                 width: "100%",
-                height: "700px",
+                height: "600px",
                 background: `url(${this.props.pic})`,
                 backgroundPosition:"top",
                 backgroundSize:"cover",
