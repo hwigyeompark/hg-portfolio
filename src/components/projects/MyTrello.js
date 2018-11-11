@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import SubTitle from "../SubTitle";
 import ProjectHeader from "../ProjectHeader";
 import ThirdTitle from "../ThirdTitle";
-import ProjectIntro from "../../ProjectIntro";
+import ProjectIntro from "../ProjectIntro";
 import MyRole from "../MyRole";
 import UsedTechnique from "../UsedTechnique";
 import ScreenShot from "../ScreenShot";

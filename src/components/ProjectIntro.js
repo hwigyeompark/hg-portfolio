@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ThirdTitle from "./components/ThirdTitle";
+import ThirdTitle from "./ThirdTitle";
 
 class ProjectIntro extends Component{
     render(){

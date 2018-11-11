@@ -52,7 +52,7 @@
   }
   & .project-item:hover{
     cursor: pointer;
-    animation: hoverProjects 0.4s linear;
+    animation: hoverProjects 0.5s ease;
   }
 }
 
@@ -61,7 +61,7 @@
   height: 400px;
   & .contact-btn:hover{
     cursor: pointer;
-    border: 1px solid #F64949 !important;
+    border: 1.3px solid #36E0C6 !important;
   }
 }
 .project-detail-name{
@@ -99,7 +99,7 @@
     -webkit-transform: scale(1.0);
   }
   100%{
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
   }
 }

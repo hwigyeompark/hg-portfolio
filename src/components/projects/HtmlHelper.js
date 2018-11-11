@@ -3,7 +3,7 @@ import ProjectHeader from "../ProjectHeader";
 import Project_1 from '../../images/header_project_1.png';
 import Title from "../Title";
 import ThirdTitle from "../ThirdTitle";
-import ProjectIntro from "../../ProjectIntro";
+import ProjectIntro from "../ProjectIntro";
 import MyRole from "../MyRole";
 import UsedTechnique from "../UsedTechnique";
 import ScreenShot from "../ScreenShot";
