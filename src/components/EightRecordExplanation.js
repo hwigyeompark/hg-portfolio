@@ -4,8 +4,6 @@ class EightRecordExplanation extends Component{
     render() {
         const style = {
             div : {
-                width:"20%",
-                height:"auto",
                 margin:"1%"
             },
             p:{

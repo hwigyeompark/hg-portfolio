@@ -7,15 +7,23 @@ import ProjectIntro from "../../ProjectIntro";
 import MyRole from "../MyRole";
 import UsedTechnique from "../UsedTechnique";
 import ScreenShot from "../ScreenShot";
-import ScreenShotBox from "../ScreenShotBox";
+import EightRecordBox from "../EightRecordBox";
 import eightRecord_1 from '../../images/eight_record_1.png';
 import eightRecord_2 from '../../images/eight_record_2.png';
 import eightRecord_3 from '../../images/eight_record_3.png';
 import eightRecord_4 from '../../images/eight_record_4.png';
 import eightRecord_5 from '../../images/eight_record_5.png';
+import eightRecord_6 from '../../images/eight_record_6.png';
 
 class EightRecord extends Component{
     render(){
+        const eightRecordBoxWrap = {
+            display:"flex",
+            flexDirection:"row",
+            flexWrap:"wrap",
+            width:"60%",
+            margin:"0 auto"
+        };
         return(
             <div id="eight-record">
                 <ProjectHeader pic={Project_3}/>
@@ -31,11 +39,15 @@ class EightRecord extends Component{
                 <UsedTechnique introTitle1="Publishing" introMent1="- HTML, CSS"
                                introTitle2="Front-End" introMent2="Angular.js, jQuery..."/>
                 <ScreenShot />
-                <ScreenShotBox pic={eightRecord_1} explanation1="- 메인페이지" explanation2="- 해커톤 리스트에서 각 정보 확인"/>
-                <ScreenShotBox pic={eightRecord_2} explanation1="- "/>
-                <ScreenShotBox pic={eightRecord_3} explanation1="- "/>
-                <ScreenShotBox pic={eightRecord_4} explanation1="- "/>
-                <ScreenShotBox pic={eightRecord_5} explanation1="- "/>
+
+                <div style={eightRecordBoxWrap}>
+                    <EightRecordBox pic={eightRecord_1} explanation1="- 메인페이지" explanation2="- 해커톤 리스트에서 각 정보 확인"/>
+                    <EightRecordBox pic={eightRecord_2}/>
+                    <EightRecordBox pic={eightRecord_3}/>
+                    <EightRecordBox pic={eightRecord_4}/>
+                    <EightRecordBox pic={eightRecord_5}/>
+                    <EightRecordBox pic={eightRecord_6}/>
+                </div>
             </div>
         );
     }
