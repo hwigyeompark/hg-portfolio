@@ -2,7 +2,6 @@
   "name": "hg-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hwigyeompark.github.io/hg-portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
     "@fortawesome/free-brands-svg-icons": "^5.5.0",
@@ -24,8 +23,9 @@
     "build": "cross-env NODE_PATH=src react-scripts build",
     "eject": "react-scripts eject",
     "test": "react-scripts test --env=jsdom",
-    "deploy":"npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build"
   },
+  "homepage": "https://hwigyeompark.github.io/hg-portfolio",
   "eslintConfig": {
     "extends": "react-app"
   },
