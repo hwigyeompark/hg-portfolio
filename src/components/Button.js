@@ -17,7 +17,7 @@ class Button extends Component{
                 padding: "15px",
                 margin : "1%",
                 borderRadius : "15px",
-                backgroundColor : "transparent"
+                backgroundColor : "transparent",
         };
         return(
             <div>
