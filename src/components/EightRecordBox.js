@@ -8,7 +8,7 @@ class EightRecordBox extends Component{
             screenShotBox : {
                 display:"flex",
                 flexDirection:"column",
-                margin:"0.3%"
+                margin:"0.7%"
             }
         };
         return(

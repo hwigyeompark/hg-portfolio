@@ -4,8 +4,8 @@ class EightRecordItem extends Component{
     render() {
         const style = {
             div : {
-                width:"350px",
-                height:"600px",
+                width:"300px",
+                height:"520px",
                 border:"1px solid #C4C3C3"
             },
             img:{

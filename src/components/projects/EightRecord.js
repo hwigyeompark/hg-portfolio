@@ -21,8 +21,9 @@ class EightRecord extends Component{
             display:"flex",
             flexDirection:"row",
             flexWrap:"wrap",
-            width:"60%",
-            margin:"0 auto"
+            width:"80%",
+            margin:"0 auto",
+            justifyContent:"center"
         };
         return(
             <div id="eight-record">
