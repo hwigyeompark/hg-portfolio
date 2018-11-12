@@ -5,11 +5,13 @@ import ThirdTitle from "./ThirdTitle";
 import About from "./About";
 import Project from "./Project";
 import Contact from "./Contact";
+import NavBar from "./NavBar";
 
 class Container extends Component{
     render(){
         return(
           <div className="container">
+              <NavBar/>
               <div id="intro">
                   <div>
                       <Title title="삶은 여행, 여행하는 개발자 '박휘겸'입니다." /><br/>
