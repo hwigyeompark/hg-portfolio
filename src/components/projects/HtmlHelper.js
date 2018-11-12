@@ -13,13 +13,11 @@ import htmlHelper_2 from '../../images/html_helper_2.png';
 import htmlHelper_3 from '../../images/html_helper_3.png';
 import htmlHelper_4 from '../../images/html_helper_4.png';
 import htmlHelper_5 from '../../images/html_helper_5.png';
-import NavBar from "../NavBar";
 
 class HtmlHelper extends Component{
     render(){
         return(
             <div id="html-helper">
-                <NavBar/>
                 <ProjectHeader pic={Project_1}/>
                 <div className="project-detail-name">
                     <SubTitle subTitle="HTMLHelper"/><br/>

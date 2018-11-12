@@ -11,13 +11,11 @@ import Project_4 from '../../images/header_project_4.png';
 import fashionAble_1 from '../../images/fashion_able_1.png';
 import fashionAble_2 from '../../images/fashion_able_2.png';
 import fashionAble_3 from '../../images/fashion_able_3.png';
-import NavBar from "../NavBar";
 
 class FashionAble extends Component{
     render(){
         return(
             <div id="fashion-able">
-                <NavBar/>
                 <ProjectHeader pic={Project_4}/>
                 <div className="project-detail-name">
                     <SubTitle subTitle="FashionAble"/><br/>

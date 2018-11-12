@@ -14,7 +14,6 @@ import eightRecord_3 from '../../images/eight_record_3.png';
 import eightRecord_4 from '../../images/eight_record_4.png';
 import eightRecord_5 from '../../images/eight_record_5.png';
 import eightRecord_6 from '../../images/eight_record_6.png';
-import NavBar from "../NavBar";
 
 class EightRecord extends Component{
     render(){
@@ -28,7 +27,6 @@ class EightRecord extends Component{
         };
         return(
             <div id="eight-record">
-                <NavBar/>
                 <ProjectHeader pic={Project_3}/>
                 <div className="project-detail-name">
                     <SubTitle subTitle="8Record(팔레코드)"/><br/>
