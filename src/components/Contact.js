@@ -13,7 +13,6 @@ class Contact extends Component{
             display:"flex",
             flexDirection : "column",
             textAlign : "center",
-            justifyContent : "flex-start"
         };
         return(
             <div style={boxStyle}>
