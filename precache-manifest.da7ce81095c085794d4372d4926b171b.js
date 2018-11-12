@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/hg-portfolio/static/media/eight_record_1.c799e332.png"
   },
   {
-    "revision": "15c6f871dd4a9fc806cc",
-    "url": "/hg-portfolio/static/css/main.654b5b68.chunk.css"
+    "revision": "38d2100eb8dc19f076ff",
+    "url": "/hg-portfolio/static/css/main.c3ef837f.chunk.css"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/hg-portfolio/static/media/header_project_3.46b9d54d.png"
   },
   {
-    "revision": "15c6f871dd4a9fc806cc",
-    "url": "/hg-portfolio/static/js/main.15c6f871.chunk.js"
+    "revision": "38d2100eb8dc19f076ff",
+    "url": "/hg-portfolio/static/js/main.38d2100e.chunk.js"
   },
   {
     "revision": "baeb38648782e5d6187274789b5f4ce6",
@@ -160,7 +160,7 @@ self.__precacheManifest = [
     "url": "/hg-portfolio/static/css/1.41e684b9.chunk.css"
   },
   {
-    "revision": "ca1f40a920b034d205d8619ced77969b",
+    "revision": "4b0088462db5fa5a26e34b63012f674a",
     "url": "/hg-portfolio/index.html"
   }
 ];
