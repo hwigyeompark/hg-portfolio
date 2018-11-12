@@ -11,11 +11,13 @@ import Project_5 from '../../images/header_project_5.png';
 import myTrello_1 from '../../images/my_trello_1.png';
 import myTrello_2 from '../../images/my_trello_2.png';
 import myTrello_3 from '../../images/my_trello_3.png';
+import NavBar from "../NavBar";
 
 class MyTrello extends Component{
     render(){
         return(
             <div id="my-trello">
+                <NavBar/>
                 <ProjectHeader pic={Project_5}/>
                 <div className="project-detail-name">
                     <SubTitle subTitle="MyTrello"/><br/>
