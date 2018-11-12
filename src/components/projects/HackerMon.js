@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import SubTitle from "../SubTitle";
-import ProjectHeader from "../ProjectHeader";
-import Project_2 from '../../images/header_project_2.png';
 import ThirdTitle from "../ThirdTitle";
+import ProjectHeader from "../ProjectHeader";
 import ProjectIntro from "../ProjectIntro";
 import MyRole from "../MyRole";
 import UsedTechnique from "../UsedTechnique";
 import ScreenShot from "../ScreenShot";
+import ScreenShotBox from "../ScreenShotBox";
+import Project_2 from '../../images/header_project_2.png';
 import hackerMon_1 from '../../images/hacker_mon_1.png';
 import hackerMon_2 from '../../images/hacker_mon_2.png';
-import ScreenShotBox from "../ScreenShotBox";
 
 class HackerMon extends Component{
     render(){

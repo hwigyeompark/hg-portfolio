@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import SubTitle from "../SubTitle";
-import ProjectHeader from "../ProjectHeader";
-import Project_4 from '../../images/header_project_4.png';
 import ThirdTitle from "../ThirdTitle";
+import ProjectHeader from "../ProjectHeader";
 import ProjectIntro from "../ProjectIntro";
 import MyRole from "../MyRole";
 import UsedTechnique from "../UsedTechnique";
 import ScreenShot from "../ScreenShot";
 import ScreenShotBox from "../ScreenShotBox";
+import Project_4 from '../../images/header_project_4.png';
 import fashionAble_1 from '../../images/fashion_able_1.png';
 import fashionAble_2 from '../../images/fashion_able_2.png';
 import fashionAble_3 from '../../images/fashion_able_3.png';

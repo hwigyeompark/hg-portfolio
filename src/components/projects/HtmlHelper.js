@@ -1,20 +1,18 @@
 import React, {Component} from 'react';
 import ProjectHeader from "../ProjectHeader";
-import Project_1 from '../../images/header_project_1.png';
-import Title from "../Title";
+import SubTitle from "../SubTitle";
 import ThirdTitle from "../ThirdTitle";
 import ProjectIntro from "../ProjectIntro";
 import MyRole from "../MyRole";
 import UsedTechnique from "../UsedTechnique";
 import ScreenShot from "../ScreenShot";
+import ScreenShotBox from "../ScreenShotBox";
+import Project_1 from '../../images/header_project_1.png';
 import htmlHelper_1 from '../../images/html_helper_1.png';
 import htmlHelper_2 from '../../images/html_helper_2.png';
 import htmlHelper_3 from '../../images/html_helper_3.png';
 import htmlHelper_4 from '../../images/html_helper_4.png';
 import htmlHelper_5 from '../../images/html_helper_5.png';
-import ScreenShotBox from "../ScreenShotBox";
-import SubTitle from "../SubTitle";
-
 
 class HtmlHelper extends Component{
     render(){
