@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76d74d2f-d8ad-49ef-9c54-6ca13f94cac7" name="Default" comment="udpate package.json">
+    <list default="true" id="76d74d2f-d8ad-49ef-9c54-6ca13f94cac7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/EightRecord.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/EightRecord.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/FashionAble.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/FashionAble.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/HackerMon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/HackerMon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/HtmlHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/HtmlHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/MyTrello.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/MyTrello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Button.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Button.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="220">
+              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -35,15 +43,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="49">
               <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectHeader.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ProjectHeader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -93,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyTrello.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyTrello.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/projects/MyTrello.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="448">
@@ -189,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/components/Container.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/ProjectIntro.js" />
-        <option value="$PROJECT_DIR$/src/scss/style.scss" />
         <option value="$PROJECT_DIR$/src/components/ProjectHeader.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/projects/HackerMon.js" />
@@ -197,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/components/projects/EightRecord.js" />
         <option value="$PROJECT_DIR$/src/components/projects/FashionAble.js" />
         <option value="$PROJECT_DIR$/src/components/projects/MyTrello.js" />
+        <option value="$PROJECT_DIR$/src/scss/style.scss" />
       </list>
     </option>
   </component>
@@ -342,14 +341,7 @@
       <workItem from="1541043839077" duration="598000" />
       <workItem from="1541078933255" duration="97099000" />
       <workItem from="1541678511522" duration="74074000" />
-      <workItem from="1541979485014" duration="1816000" />
-    </task>
-    <task id="LOCAL-00010" summary="add AboutBox and MyIntro">
-      <created>1541086947314</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1541086947314</updated>
+      <workItem from="1541979485014" duration="1904000" />
     </task>
     <task id="LOCAL-00011" summary="Complete About section first.">
       <created>1541098061135</created>
@@ -687,11 +679,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541979310640</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="update projects explanation">
+      <created>1541981370982</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1541981370983</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229486000" />
+    <option name="totallyTimeSpent" value="229574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -744,7 +743,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add ProjectIntro" />
     <MESSAGE value="complete ProjectIntro" />
     <MESSAGE value="add MyRole and complete" />
     <MESSAGE value="complete UsedTechnique" />
@@ -769,7 +767,8 @@
     <MESSAGE value="update package.json" />
     <MESSAGE value="update ProjectHeader" />
     <MESSAGE value="udpate package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="udpate package.json" />
+    <MESSAGE value="update projects explanation" />
+    <option name="LAST_COMMIT_MESSAGE" value="update projects explanation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -989,6 +988,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,16 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1078,13 +1070,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1160,6 +1145,23 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
         </state>
       </provider>
     </entry>
