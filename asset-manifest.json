@@ -1,7 +1,7 @@
 {
-  "main.css": "/hg-portfolio/static/css/main.6dd3ef97.chunk.css",
-  "main.js": "/hg-portfolio/static/js/main.49c099d5.chunk.js",
-  "main.js.map": "/hg-portfolio/static/js/main.49c099d5.chunk.js.map",
+  "main.css": "/hg-portfolio/static/css/main.e9ccac9f.chunk.css",
+  "main.js": "/hg-portfolio/static/js/main.4dbda9d2.chunk.js",
+  "main.js.map": "/hg-portfolio/static/js/main.4dbda9d2.chunk.js.map",
   "static/css/1.41e684b9.chunk.css": "/hg-portfolio/static/css/1.41e684b9.chunk.css",
   "static/js/1.7e969dd6.chunk.js": "/hg-portfolio/static/js/1.7e969dd6.chunk.js",
   "static/js/1.7e969dd6.chunk.js.map": "/hg-portfolio/static/js/1.7e969dd6.chunk.js.map",
@@ -38,9 +38,9 @@
   "static/media/my_trello_3.png": "/hg-portfolio/static/media/my_trello_3.881a12d1.png",
   "static/media/style.css": "/hg-portfolio/static/media/bg_intro.374a525b.png",
   "static/media/font-awesome.min.css": "/hg-portfolio/static/media/fontawesome-webfont.912ec66d.svg",
-  "static/css/main.6dd3ef97.chunk.css.map": "/hg-portfolio/static/css/main.6dd3ef97.chunk.css.map",
+  "static/css/main.e9ccac9f.chunk.css.map": "/hg-portfolio/static/css/main.e9ccac9f.chunk.css.map",
   "static/css/1.41e684b9.chunk.css.map": "/hg-portfolio/static/css/1.41e684b9.chunk.css.map",
   "index.html": "/hg-portfolio/index.html",
-  "precache-manifest.455a8449dcb0191173642eead253dded.js": "/hg-portfolio/precache-manifest.455a8449dcb0191173642eead253dded.js",
+  "precache-manifest.bd19df98e257d6d4770f06827866dd15.js": "/hg-portfolio/precache-manifest.bd19df98e257d6d4770f06827866dd15.js",
   "service-worker.js": "/hg-portfolio/service-worker.js"
 }
