@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/hg-portfolio/static/media/eight_record_1.c799e332.png"
   },
   {
-    "revision": "9ef68a87f35fed8e42a6",
-    "url": "/hg-portfolio/static/css/main.c3ef837f.chunk.css"
+    "revision": "0100794719531c3e7572",
+    "url": "/hg-portfolio/static/css/main.11391d87.chunk.css"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/hg-portfolio/static/media/header_project_3.46b9d54d.png"
   },
   {
-    "revision": "9ef68a87f35fed8e42a6",
-    "url": "/hg-portfolio/static/js/main.9ef68a87.chunk.js"
+    "revision": "0100794719531c3e7572",
+    "url": "/hg-portfolio/static/js/main.01007947.chunk.js"
   },
   {
     "revision": "baeb38648782e5d6187274789b5f4ce6",
@@ -144,12 +144,12 @@ self.__precacheManifest = [
     "url": "/hg-portfolio/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "fee66e712a8a08eef5805a46892932ad",
-    "url": "/hg-portfolio/static/media/fontawesome-webfont.fee66e71.woff"
-  },
-  {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/hg-portfolio/static/media/fontawesome-webfont.674f50d2.eot"
+  },
+  {
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/hg-portfolio/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
@@ -160,7 +160,7 @@ self.__precacheManifest = [
     "url": "/hg-portfolio/static/css/1.41e684b9.chunk.css"
   },
   {
-    "revision": "1a5432036bc9de237f330ffd133dadd4",
+    "revision": "7858833d27068e32715a0a0e23befcfa",
     "url": "/hg-portfolio/index.html"
   }
 ];
