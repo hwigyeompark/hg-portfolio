@@ -19,7 +19,7 @@ class NavBar extends Component{
                 textAlign:"center"
             },
             li:{
-                width:"33%",
+                width:"25%",
                 height:"100%",
                 float:"left",
                 textAlign:"center",
@@ -32,6 +32,7 @@ class NavBar extends Component{
         return(
           <div style={navStyle.div}>
               <ul style={navStyle.ul}>
+                  <li style={navStyle.li}><a style={navStyle.a} href={process.env.PUBLIC_URL + "/#intro"}>HOME</a></li>
                   <li style={navStyle.li}><a style={navStyle.a} href={process.env.PUBLIC_URL + "/#about"}>ABOUT</a></li>
                   <li style={navStyle.li}><a style={navStyle.a} href={process.env.PUBLIC_URL + "/#projects"}>PROJECTS</a></li>
                   <li style={navStyle.li}><a style={navStyle.a} href={process.env.PUBLIC_URL + "/#contact"}>CONTACT</a></li>
