@@ -42,12 +42,12 @@ class EightRecord extends Component{
                 <ScreenShot />
 
                 <div style={eightRecordBoxWrap}>
-                    <EightRecordBox pic={eightRecord_1} explanation1="- 메인페이지" explanation2="- 해커톤 리스트에서 각 정보 확인"/>
-                    <EightRecordBox pic={eightRecord_2}/>
+                    <EightRecordBox pic={eightRecord_1} explanation1="- 시작화면"/>
+                    <EightRecordBox pic={eightRecord_2} explanation1="- 오늘 날짜 또는 작성을 원하는 날짜 선택"/>
                     <EightRecordBox pic={eightRecord_3}/>
-                    <EightRecordBox pic={eightRecord_4}/>
-                    <EightRecordBox pic={eightRecord_5}/>
-                    <EightRecordBox pic={eightRecord_6}/>
+                    <EightRecordBox pic={eightRecord_4} explanation1="- 그 날 기분에 맞는 원하는 색상 선택"/>
+                    <EightRecordBox pic={eightRecord_5} explanation1="- 마음껏 원하는 것들을 기록"/>
+                    <EightRecordBox pic={eightRecord_6} explanation1="- 색깔 별로 작성된 다이어리 확인"/>
                 </div>
             </div>
         );

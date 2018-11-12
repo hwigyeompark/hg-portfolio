@@ -27,9 +27,9 @@ class MyTrello extends Component{
                         introMent2="- 퍼블리싱 및 프론트엔드 구현"/>
                 <UsedTechnique introTitle1="Front-End" introMent1="- jQuery, javascript, HTML, CSS..."/>
                 <ScreenShot />
-                <ScreenShotBox pic={myTrello_1} explanation1="- 메인페이지" explanation2="- 네비게이션 바로 카테고리 이동" explanation3="- 비주얼 슬라이드"/>
-                <ScreenShotBox pic={myTrello_2} explanation1="- "/>
-                <ScreenShotBox pic={myTrello_3} explanation1="- "/>
+                <ScreenShotBox pic={myTrello_1} explanation1="- 메인 페이지" explanation2="- 원하는 리스트 작성해서 추가"/>
+                <ScreenShotBox pic={myTrello_2} explanation1="- 리스트 제목 작성 및 리스트 내의 카드 추가"/>
+                <ScreenShotBox pic={myTrello_3} explanation1="- 카드 내에서 사진 추가" explanation2="사진 추가 시 브러쉬 색깔 및 굵기 조절 가능" explanation3="카드 리스트 내에서 드래그 앤 드롭으로 순서 조절 가능"/>
             </div>
         );
     }

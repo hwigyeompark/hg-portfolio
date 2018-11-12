@@ -28,8 +28,8 @@ class HackerMon extends Component{
                 <UsedTechnique introTitle1="Publishing" introMent1="- HTML, CSS, Bootstrap..."
                                introTitle2="Front-End" introMent2="Javascript, jQuery..."/>
                 <ScreenShot />
-                <ScreenShotBox pic={hackerMon_1} explanation1="- 메인페이지" explanation2="- 해커톤 리스트에서 각 정보 확인"/>
-                <ScreenShotBox pic={hackerMon_2} explanation1="- "/>
+                <ScreenShotBox pic={hackerMon_1} explanation1="- 메인 페이지" explanation2="- 파싱된 해커톤 리스트에서 각 정보 확인"/>
+                <ScreenShotBox pic={hackerMon_2} explanation1="- 팀빌딩 페이지" explanation2="- 포지션 별 진행되고 있는 팀빌딩 상황 확인"/>
             </div>
         );
     }

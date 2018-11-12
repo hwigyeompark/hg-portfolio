@@ -27,9 +27,9 @@ class FashionAble extends Component{
                         introMent2="- 퍼블리싱 및 프론트엔드 구현"/>
                 <UsedTechnique introTitle1="Front-End" introMent1="- React.js, react-strap..."/>
                 <ScreenShot />
-                <ScreenShotBox pic={fashionAble_1} explanation1="- 메인페이지" explanation2="- 네비게이션 바로 카테고리 이동" explanation3="비주얼 슬라이드"/>
-                <ScreenShotBox pic={fashionAble_2} explanation1="- "/>
-                <ScreenShotBox pic={fashionAble_3} explanation1="- "/>
+                <ScreenShotBox pic={fashionAble_1} explanation1="- 메인페이지" explanation2="- 네비게이션바를 통해 카테고리 이동" explanation3="- 비주얼 슬라이드"/>
+                <ScreenShotBox pic={fashionAble_2} explanation1="- 카테고리 별 아이템 리스트"/>
+                <ScreenShotBox pic={fashionAble_3} explanation1="- 각 아이템 불러오기"/>
             </div>
         );
     }
