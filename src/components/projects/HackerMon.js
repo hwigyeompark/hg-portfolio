@@ -10,11 +10,13 @@ import ScreenShotBox from "../ScreenShotBox";
 import Project_2 from '../../images/header_project_2.png';
 import hackerMon_1 from '../../images/hacker_mon_1.png';
 import hackerMon_2 from '../../images/hacker_mon_2.png';
+import NavBar from "../NavBar";
 
 class HackerMon extends Component{
     render(){
         return(
             <div id="hacker-mon">
+                <NavBar/>
                 <ProjectHeader pic={Project_2}/>
                 <div className="project-detail-name">
                     <SubTitle subTitle="HackerMon(해커몬)"/><br/>

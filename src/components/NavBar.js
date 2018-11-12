@@ -32,9 +32,9 @@ class NavBar extends Component{
         return(
           <div style={navStyle.div}>
               <ul style={navStyle.ul}>
-                  <li style={navStyle.li}><a style={navStyle.a} href="/#about">ABOUT</a></li>
-                  <li style={navStyle.li}><a style={navStyle.a} href="/#projects">PROJECTS</a></li>
-                  <li style={navStyle.li}><a style={navStyle.a} href="/#contact">CONTACT</a></li>
+                  <li style={navStyle.li}><a style={navStyle.a} href={process.env.PUBLIC_URL + "/#about"}>ABOUT</a></li>
+                  <li style={navStyle.li}><a style={navStyle.a} href={process.env.PUBLIC_URL + "/#projects"}>PROJECTS</a></li>
+                  <li style={navStyle.li}><a style={navStyle.a} href={process.env.PUBLIC_URL + "/#contact"}>CONTACT</a></li>
               </ul>
           </div>
         );
