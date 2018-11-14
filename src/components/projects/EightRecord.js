@@ -18,14 +18,6 @@ import NavBar from "../NavBar";
 
 class EightRecord extends Component{
     render(){
-        const eightRecordBoxWrap = {
-            display:"flex",
-            flexDirection:"row",
-            flexWrap:"wrap",
-            width:"80%",
-            margin:"0 auto",
-            justifyContent:"center"
-        };
         return(
             <div id="eight-record">
                 <NavBar/>
@@ -43,7 +35,7 @@ class EightRecord extends Component{
                                introTitle2="Front-End" introMent2="Angular.js, jQuery..."/>
                 <ScreenShot />
 
-                <div style={eightRecordBoxWrap}>
+                <div className="eight-record-box-wrap">
                     <EightRecordBox pic={eightRecord_1} explanation1="- 시작화면"/>
                     <EightRecordBox pic={eightRecord_2} explanation1="- 오늘 날짜 또는 작성을 원하는 날짜 선택"/>
                     <EightRecordBox pic={eightRecord_3}/>
