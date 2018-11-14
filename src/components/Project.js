@@ -30,17 +30,8 @@ class Project extends Component{
                 img : project_5
             }
         ];
-        const projectStyle = {
-            display : "flex",
-            flexWrap : "wrap",
-            justifyContent : "center",
-            width : "60%",
-            height : "1000px",
-            margin : "0 auto",
-            marginTop : "2%",
-        };
         return(
-            <div style={projectStyle}>
+            <div className="project-box">
                 {
                     images.map(image => <ProjectItem id={image.id} pic={image.img} key={image.id}/>)
                 }
