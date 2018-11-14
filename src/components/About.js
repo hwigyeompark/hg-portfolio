@@ -4,14 +4,8 @@ import MyIntro from "./MyIntro";
 
 class About extends Component{
     render(){
-        const boxStyle = {
-            width:"60%",
-            margin:"0 auto",
-            marginTop:"2.3%",
-            display:"flex"
-        };
         return(
-            <div style={boxStyle}>
+            <div className="about-box">
                 <MyPic/>
                 <MyIntro/>
             </div>
