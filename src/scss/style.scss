@@ -172,6 +172,14 @@ $white-color : #ffffff;
   background-position: center;
   background-size: cover;
 }
+.project-intro{
+  display: flex;
+  flex-direction: column;
+  margin: 7% 0 0 15%;
+  & p{
+    @extend %explanation;
+  }
+}
 .project-detail-name{
   margin-top: 3%;
 }

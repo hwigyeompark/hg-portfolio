@@ -3,22 +3,10 @@ import ThirdTitle from "./ThirdTitle";
 
 class ProjectIntro extends Component{
     render(){
-        const style={
-            div:{
-                display:"flex",
-                flexDirection:"column",
-                marginLeft:"15%",
-                marginTop:"7%"
-            },
-            p:{
-                wordBreak:"break-all",
-                fontSize:"1.1rem"
-            }
-        };
         return(
-            <div style={style.div}>
+            <div className="project-intro">
                 <ThirdTitle thirdTitle="프로젝트 소개"/>
-                <p style={style.p}>{this.props.introMent}</p>
+                <p>{this.props.introMent}</p>
             </div>
         );
     }
