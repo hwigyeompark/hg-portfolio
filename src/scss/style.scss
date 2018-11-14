@@ -173,18 +173,28 @@ $border-color : #c4c3c3;
   background-position: center;
   background-size: cover;
 }
-.project-intro{
+%project-flex{
   display: flex;
   flex-direction: column;
-  margin: 7% 0 0 15%;
+  margin: 5% 0 0 15%;
+}
+.project-intro{
+  @extend %project-flex;
+  & p{
+    @extend %explanation;
+  }
+}
+.my-role{
+  @extend %project-flex;
+  & h1{
+    font-size: 1.2rem;
+  }
   & p{
     @extend %explanation;
   }
 }
 .used-technique{
-  display: flex;
-  flex-direction: column;
-  margin: 5% 0 0 15%;
+  @extend %project-flex;
   & h1{
     font-size: 1.2rem;
   }
@@ -193,9 +203,7 @@ $border-color : #c4c3c3;
   }
 }
 .screen-shot{
-  display: flex;
-  flex-direction: column;
-  margin: 5% 0 0 15%;
+  @extend %project-flex;
 }
 .screen-shot-box{
   width: 70%;
