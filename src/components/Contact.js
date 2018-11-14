@@ -6,16 +6,8 @@ import Button from "./Button";
 
 class Contact extends Component{
     render(){
-        const boxStyle = {
-            width:"60%",
-            margin: "0 auto",
-            marginTop:"2%",
-            display:"flex",
-            flexDirection : "column",
-            textAlign : "center",
-        };
         return(
-            <div style={boxStyle}>
+            <div className="contact-box">
                 <Button icon={faEnvelope} name="phg5590@gmail.com"/>
                 <Button icon={faGithub} name="github.com/hwigyeompark"/>
             </div>
