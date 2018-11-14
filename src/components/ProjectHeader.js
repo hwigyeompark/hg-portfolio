@@ -2,17 +2,11 @@ import React, {Component} from 'react';
 
 class ProjectHeader extends Component{
     render(){
-        const style = {
-            div : {
-                width: "100%",
-                height: "700px",
-                background: `url(${this.props.pic})`,
-                backgroundPosition:"center",
-                backgroundSize:"cover",
-            },
+        const projectHeaderStyle = {
+            background: `url(${this.props.pic})`
         };
         return(
-          <div style={style.div}>
+          <div style={projectHeaderStyle} className="project-header">
           </div>
         );
     }
