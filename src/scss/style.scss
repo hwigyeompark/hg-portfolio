@@ -1,5 +1,9 @@
 @import "common";
 $white-color : #ffffff;
+%explanation{
+  word-break: break-all;
+  font-size: 1.1rem;
+}
 %lighter{
   font-weight: lighter;
 }
@@ -189,6 +193,25 @@ $white-color : #ffffff;
     justify-content: center;
     width: 80%;
     margin: 0 auto;
+  }
+}
+.eight-record-box{
+  display: flex;
+  flex-direction: column;
+  margin: .7%;
+}
+.eight-record-item{
+  width: 300px;
+  height: 520px;
+  border: #C4C3C3;
+  & > img{
+    @extend #root;
+  }
+}
+.eight-record-explanation{
+  margin: 1%;
+  & p{
+    @extend %explanation;
   }
 }
 /*@keyframes spinMyPic {
