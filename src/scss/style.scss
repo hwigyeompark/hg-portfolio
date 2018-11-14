@@ -1,8 +1,9 @@
 @import "common";
 $white-color : #ffffff;
+$border-color : #c4c3c3;
 %explanation{
   word-break: break-all;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 %lighter{
   font-weight: lighter;
@@ -180,6 +181,35 @@ $white-color : #ffffff;
     @extend %explanation;
   }
 }
+.screen-shot{
+  display: flex;
+  flex-direction: column;
+  margin: 5% 0 0 15%;
+}
+.screen-shot-box{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.screen-shot-item{
+  width: 900px;
+  height: 460px;
+  margin: 1%;
+  border: $border-color;
+  & > img{
+    @extend #root;
+  }
+}
+.screen-shot-explanation{
+  width: 20%;
+  height: auto;
+  margin: 1%;
+  & p{
+    @extend %explanation;
+  }
+}
 .project-detail-name{
   margin-top: 3%;
 }
@@ -211,7 +241,7 @@ $white-color : #ffffff;
 .eight-record-item{
   width: 300px;
   height: 520px;
-  border: #C4C3C3;
+  border-color: 1px solid $border-color;
   & > img{
     @extend #root;
   }
