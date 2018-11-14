@@ -3,7 +3,7 @@ $white-color : #ffffff;
 $border-color : #c4c3c3;
 %explanation{
   word-break: break-all;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 %lighter{
   font-weight: lighter;
@@ -177,6 +177,17 @@ $border-color : #c4c3c3;
   display: flex;
   flex-direction: column;
   margin: 7% 0 0 15%;
+  & p{
+    @extend %explanation;
+  }
+}
+.used-technique{
+  display: flex;
+  flex-direction: column;
+  margin: 5% 0 0 15%;
+  & h1{
+    font-size: 1.2rem;
+  }
   & p{
     @extend %explanation;
   }
