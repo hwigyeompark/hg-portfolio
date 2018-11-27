@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/hg-portfolio/static/media/eight_record_1.c799e332.png"
   },
   {
-    "revision": "d4f8cdee28d442e8727e",
-    "url": "/hg-portfolio/static/css/main.94cc8e52.chunk.css"
+    "revision": "855cdc521fbafeac6e14",
+    "url": "/hg-portfolio/static/css/main.776f15ea.chunk.css"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/hg-portfolio/static/media/header_project_3.46b9d54d.png"
   },
   {
-    "revision": "d4f8cdee28d442e8727e",
-    "url": "/hg-portfolio/static/js/main.d4f8cdee.chunk.js"
+    "revision": "855cdc521fbafeac6e14",
+    "url": "/hg-portfolio/static/js/main.855cdc52.chunk.js"
   },
   {
     "revision": "baeb38648782e5d6187274789b5f4ce6",
@@ -136,20 +136,20 @@ self.__precacheManifest = [
     "url": "/hg-portfolio/static/media/my_trello_3.881a12d1.png"
   },
   {
-    "revision": "c890d485647724eea8698f64d7a91ee3",
-    "url": "/hg-portfolio/static/media/bg_intro.c890d485.png"
+    "revision": "bda4f74311212b93ec9327407faea765",
+    "url": "/hg-portfolio/static/media/bg_intro.bda4f743.png"
   },
   {
-    "revision": "fee66e712a8a08eef5805a46892932ad",
-    "url": "/hg-portfolio/static/media/fontawesome-webfont.fee66e71.woff"
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/hg-portfolio/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/hg-portfolio/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/hg-portfolio/static/media/fontawesome-webfont.af7ae505.woff2"
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/hg-portfolio/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
@@ -160,7 +160,7 @@ self.__precacheManifest = [
     "url": "/hg-portfolio/static/css/1.41e684b9.chunk.css"
   },
   {
-    "revision": "a8a171d0bb39438ee55ef570bdafdcff",
+    "revision": "41c948891b8e8522c759a22ef13025c8",
     "url": "/hg-portfolio/index.html"
   }
 ];
