@@ -1,7 +1,7 @@
 {
-  "main.css": "/hg-portfolio/static/css/main.2d7600d8.chunk.css",
-  "main.js": "/hg-portfolio/static/js/main.e1101aae.chunk.js",
-  "main.js.map": "/hg-portfolio/static/js/main.e1101aae.chunk.js.map",
+  "main.css": "/hg-portfolio/static/css/main.94cc8e52.chunk.css",
+  "main.js": "/hg-portfolio/static/js/main.d4f8cdee.chunk.js",
+  "main.js.map": "/hg-portfolio/static/js/main.d4f8cdee.chunk.js.map",
   "static/css/1.41e684b9.chunk.css": "/hg-portfolio/static/css/1.41e684b9.chunk.css",
   "static/js/1.7e969dd6.chunk.js": "/hg-portfolio/static/js/1.7e969dd6.chunk.js",
   "static/js/1.7e969dd6.chunk.js.map": "/hg-portfolio/static/js/1.7e969dd6.chunk.js.map",
@@ -36,11 +36,11 @@
   "static/media/my_trello_1.png": "/hg-portfolio/static/media/my_trello_1.61d5ff5e.png",
   "static/media/my_trello_2.png": "/hg-portfolio/static/media/my_trello_2.37a98507.png",
   "static/media/my_trello_3.png": "/hg-portfolio/static/media/my_trello_3.881a12d1.png",
-  "static/media/style.css": "/hg-portfolio/static/media/bg_intro.bb79be85.png",
+  "static/media/style.css": "/hg-portfolio/static/media/bg_intro.c890d485.png",
   "static/media/font-awesome.min.css": "/hg-portfolio/static/media/fontawesome-webfont.912ec66d.svg",
-  "static/css/main.2d7600d8.chunk.css.map": "/hg-portfolio/static/css/main.2d7600d8.chunk.css.map",
   "static/css/1.41e684b9.chunk.css.map": "/hg-portfolio/static/css/1.41e684b9.chunk.css.map",
+  "static/css/main.94cc8e52.chunk.css.map": "/hg-portfolio/static/css/main.94cc8e52.chunk.css.map",
   "index.html": "/hg-portfolio/index.html",
-  "precache-manifest.a5ee88a41b1697eace63c249d4ec64ea.js": "/hg-portfolio/precache-manifest.a5ee88a41b1697eace63c249d4ec64ea.js",
+  "precache-manifest.b10dd52494e4604d7175c5f330874cdc.js": "/hg-portfolio/precache-manifest.b10dd52494e4604d7175c5f330874cdc.js",
   "service-worker.js": "/hg-portfolio/service-worker.js"
 }
