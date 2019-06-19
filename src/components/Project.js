@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import ProjectItem from "./ProjectItem";
-import project_1 from '../images/bg_project_1.png';
-import project_2 from '../images/bg_project_2.png';
-import project_3 from '../images/bg_project_3.png';
-import project_4 from '../images/bg_project_4.png';
-import project_5 from '../images/bg_project_5.png';
+import project_1 from '../assets/images/home/bg_project_1.png';
+import project_2 from '../assets/images/home/bg_project_2.png';
+import project_3 from '../assets/images/home/bg_project_3.png';
+import project_4 from '../assets/images/home/bg_project_4.png';
+import project_5 from '../assets/images/home/bg_project_5.png';
 
 class Project extends Component{
     render(){

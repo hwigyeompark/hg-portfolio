@@ -7,12 +7,12 @@ import MyRole from "../MyRole";
 import UsedTechnique from "../UsedTechnique";
 import ScreenShot from "../ScreenShot";
 import ScreenShotBox from "../ScreenShotBox";
-import Project_1 from '../../images/header_project_1.png';
-import htmlHelper_1 from '../../images/html_helper_1.png';
-import htmlHelper_2 from '../../images/html_helper_2.png';
-import htmlHelper_3 from '../../images/html_helper_3.png';
-import htmlHelper_4 from '../../images/html_helper_4.png';
-import htmlHelper_5 from '../../images/html_helper_5.png';
+import Project_1 from '../../assets/images/projects/htmlHelper/header_project_1.png';
+import htmlHelper_1 from '../../assets/images/projects/htmlHelper/html_helper_1.png';
+import htmlHelper_2 from '../../assets/images/projects/htmlHelper/html_helper_2.png';
+import htmlHelper_3 from '../../assets/images/projects/htmlHelper/html_helper_3.png';
+import htmlHelper_4 from '../../assets/images/projects/htmlHelper/html_helper_4.png';
+import htmlHelper_5 from '../../assets/images/projects/htmlHelper/html_helper_5.png';
 import NavBar from "../NavBar";
 
 class HtmlHelper extends Component{

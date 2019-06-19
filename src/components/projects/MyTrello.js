@@ -7,10 +7,10 @@ import MyRole from "../MyRole";
 import UsedTechnique from "../UsedTechnique";
 import ScreenShot from "../ScreenShot";
 import ScreenShotBox from "../ScreenShotBox";
-import Project_5 from '../../images/header_project_5.png';
-import myTrello_1 from '../../images/my_trello_1.png';
-import myTrello_2 from '../../images/my_trello_2.png';
-import myTrello_3 from '../../images/my_trello_3.png';
+import Project_5 from '../../assets/images/projects/myTrello/header_project_5.png';
+import myTrello_1 from '../../assets/images/projects/myTrello/my_trello_1.png';
+import myTrello_2 from '../../assets/images/projects/myTrello/my_trello_2.png';
+import myTrello_3 from '../../assets/images/projects/myTrello/my_trello_3.png';
 import NavBar from "../NavBar";
 
 class MyTrello extends Component{

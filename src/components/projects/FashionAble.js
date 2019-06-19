@@ -7,10 +7,10 @@ import MyRole from "../MyRole";
 import UsedTechnique from "../UsedTechnique";
 import ScreenShot from "../ScreenShot";
 import ScreenShotBox from "../ScreenShotBox";
-import Project_4 from '../../images/header_project_4.png';
-import fashionAble_1 from '../../images/fashion_able_1.png';
-import fashionAble_2 from '../../images/fashion_able_2.png';
-import fashionAble_3 from '../../images/fashion_able_3.png';
+import Project_4 from '../../assets/images/projects/fashionAble/header_project_4.png';
+import fashionAble_1 from '../../assets/images/projects/fashionAble/fashion_able_1.png';
+import fashionAble_2 from '../../assets/images/projects/fashionAble/fashion_able_2.png';
+import fashionAble_3 from '../../assets/images/projects/fashionAble/fashion_able_3.png';
 import NavBar from "../NavBar";
 
 class FashionAble extends Component{

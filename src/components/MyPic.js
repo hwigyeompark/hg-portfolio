@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import lifeClock from '../images/img_life_clock.png';
+import lifeClock from '../assets/images/home/img_life_clock.png';
 
 class MyPic extends Component{
     render(){

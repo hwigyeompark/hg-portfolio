@@ -7,9 +7,9 @@ import MyRole from "../MyRole";
 import UsedTechnique from "../UsedTechnique";
 import ScreenShot from "../ScreenShot";
 import ScreenShotBox from "../ScreenShotBox";
-import Project_2 from '../../images/header_project_2.png';
-import hackerMon_1 from '../../images/hacker_mon_1.png';
-import hackerMon_2 from '../../images/hacker_mon_2.png';
+import Project_2 from '../../assets/images/projects/hackerMon/header_project_2.png';
+import hackerMon_1 from '../../assets/images/projects/hackerMon/hacker_mon_1.png';
+import hackerMon_2 from '../../assets/images/projects/hackerMon/hacker_mon_2.png';
 import NavBar from "../NavBar";
 
 class HackerMon extends Component{

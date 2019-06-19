@@ -7,13 +7,13 @@ import MyRole from "../MyRole";
 import UsedTechnique from "../UsedTechnique";
 import ScreenShot from "../ScreenShot";
 import EightRecordBox from "../EightRecordBox";
-import Project_3 from '../../images/header_project_3.png';
-import eightRecord_1 from '../../images/eight_record_1.png';
-import eightRecord_2 from '../../images/eight_record_2.png';
-import eightRecord_3 from '../../images/eight_record_3.png';
-import eightRecord_4 from '../../images/eight_record_4.png';
-import eightRecord_5 from '../../images/eight_record_5.png';
-import eightRecord_6 from '../../images/eight_record_6.png';
+import Project_3 from '../../assets/images/projects/eightRecord/header_project_3.png';
+import eightRecord_1 from '../../assets/images/projects/eightRecord/eight_record_1.png';
+import eightRecord_2 from '../../assets/images/projects/eightRecord/eight_record_2.png';
+import eightRecord_3 from '../../assets/images/projects/eightRecord/eight_record_3.png';
+import eightRecord_4 from '../../assets/images/projects/eightRecord/eight_record_4.png';
+import eightRecord_5 from '../../assets/images/projects/eightRecord/eight_record_5.png';
+import eightRecord_6 from '../../assets/images/projects/eightRecord/eight_record_6.png';
 import NavBar from "../NavBar";
 
 class EightRecord extends Component{

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {Route} from 'react-router-dom';
 import Container from "./components/Container";
-import "./css/common.css";
-import "./css/style.css";
+import "./scss/common.scss";
+import "./scss/style.scss";
 import HtmlHelper from "./components/projects/HtmlHelper";
 import HackerMon from "./components/projects/HackerMon";
 import EightRecord from "./components/projects/EightRecord";
