@@ -11,6 +11,7 @@ export default class HomeComponent extends Component{
     render(){
         return(
           <div className="container">
+              <Header/>
               <div id="intro">
                   <div>
                       <Title title="삶은 여행, 여행하는 개발자 '박휘겸'입니다." /><br/>
